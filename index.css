@@ -1,0 +1,31 @@
+.button {
+    width: 81px;
+    height: 40px;
+
+}
+
+.button1 {
+    width: 254px;
+    height: 40px;
+    background-size: contain;
+}
+
+.button2 {
+    width: 124px;
+    height: 40px;
+    background-size: contain;
+}
+
+#text {
+    width: 248px;
+    height: 40px;
+    background-size: contain;
+    font-size: 18px;
+}
+
+.calc {
+    width: 256px;
+    border: 2px solid gray;
+    background-color: gray;
+    margin: auto;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="index.js"></script>
+    <link href="index.css" rel="stylesheet">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <form name="calc" action="" class="calc">
+        <div class="main">
+            <div>
+                <input type="text" id="text" value="" placeholder="0" style="text-align:right" size="16">
+            </div>
+            <div>
+                <input class="button" type="button" id="b1" value="1" onclick="but(1)">
+                <input class="button" type="button" id="b2" value=" 2" onclick="but(2)">
+                <input class="button" type="button" id="b3" value="3" onclick="but(3)">
+            </div>
+            <div>
+                <input class="button" type="button" id="b4" value="4" onclick="but(4)">
+                <input class="button" type="button" id="b5" value="5" onclick="but(5)">
+                <input class="button" type="button" id="b6" value="6" onclick="but(6)">
+            </div>
+            <div>
+                <input class="button" type="button" id="b7" value="7" onclick="but(7)">
+                <input class="button" type="button" id="b8" value="8" onclick="but(8)">
+                <input class="button" type="button" id="b9" value="9" onclick="but(9)">
+            </div>
+            <div>
+                <input class="button2" type="button" id="b0" value="0" onclick="but(0)">
+                <input class="button2" type="reset" value="Reset">
+            </div>
+            <div>
+                <input class="button2" type="button" id="b10" value="/" onclick="but('/')">
+                <input class="button2" type="button" id="b11" value="*" onclick="but ('*')">
+
+            </div>
+            <div>
+                <input class="button2" type="button" id="b12" value="-" onclick="but('-')">
+                <input class="button2" type="button" id="b13" value="+" onclick="but('+')">
+            </div>
+            <div>
+                <input class="button1" type="button" id="b14" value="=" onclick="getRes()">
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
